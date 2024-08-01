@@ -1,0 +1,47 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+html.lenis {
+  height: auto;
+}
+
+[text-split] {
+  opacity: 0;
+}
+
+html.lenis [text-split] {
+  opacity: 1;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow-y: scroll;
+}
+
+.w-webflow-badge {
+  display: none !important;
+}
+
+.word {
+  overflow: hidden;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+  transform-origin: bottom;
+}
+
+.loading-2 {
+  display: none;
+}
